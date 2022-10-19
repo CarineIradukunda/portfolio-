@@ -20,6 +20,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatRadioModule } from '@angular/material/radio';
+import {MatListModule  } from '@angular/material/list';
 
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -61,7 +62,8 @@ import { FooterComponent } from './footer/footer.component';
     MatTableModule,
     MatGridListModule,
     MatDividerModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

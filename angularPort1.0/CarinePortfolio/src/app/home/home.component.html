@@ -1,7 +1,31 @@
 
 
+    
+<mat-card style="background-color: rgb(250, 250, 255);margin-left: 20%;margin-right: 20%;margin-bottom: 2%;margin-top: 2%">
 
-<mat-card style="height:50%;margin:3%;background-color: rgb(175, 176, 214);">Simple card</mat-card>
+    <div style="margin-left: 5%;margin-right:0%;margin-top: 5%;">
+        <img style="vertical-align:middle;width:33%;height:33%;border-radius: 50%;border-color: black;border-style: double;;"
+            src="../assets/images/pro.jpg" alt="A grey image showing text 60 x 60" id="pro">
+        <span style="color:black;font-family: 'Arial, Helvetica, sans-serif;', monospace;font-size: 18pt">HELLO!<br><br>I
+            am Carine Sebarinda Iradukunda </span><br><br>
+        <span style="color: black;font-family: 'Arial, Helvetica, sans-serif;', monospace;font-size: 18pt;">A Software
+            Developer based in Kigali, Rwanda.</span>
+    </div>
+    
+    <br><br><br><br><br><br><br><br><br><br>
+    
+    <div class="example-button-row" style="text-align: center;">
+        <a mat-button href="mailto: iradukundacarine14@gmail.com" routerLinkActive="active"
+            style="background-color: rgb(226, 217, 217);">EMAIL ME <mat-icon>email</mat-icon></a>
+        <a mat-button routerLinkActive="active" style="background-color: rgb(226, 217, 217);" (click)="downloadMyFile()">
+            RESUME
+            <mat-icon>cloud_download</mat-icon>
+        </a>
+    </div>
+
+</mat-card>
+
+
 
 
 
